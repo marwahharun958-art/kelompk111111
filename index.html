@@ -1,0 +1,162 @@
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Glow Beauty Skincare</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff7f9;
+            color: #444;
+        }
+
+        header {
+            background: #ffd6e0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #b85c7a;
+        }
+
+        nav {
+            background: #ffeaf0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #b85c7a;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero img {
+            width: 250px;
+            border-radius: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .card h3 {
+            color: #b85c7a;
+        }
+
+        .btn {
+            background: #ff9bb3;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #ff7f9f;
+        }
+
+        .form-section {
+            background: #ffeaf0;
+            padding: 30px;
+            text-align: center;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            width: 200px;
+        }
+
+        footer {
+            background: #ffd6e0;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Glow Beauty Skincare</h1>
+        <p>Healthy Skin, Happy Life ✨</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Produk</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Rahasia Kulit Glowing Alami</h2>
+        <p>Gunakan skincare terbaik untuk hasil maksimal</p>
+        <img src="LOGOSKINCARE.jpg" alt="Skincare">
+    </section>
+
+    <section class="products">
+        <div class="card">
+            <img src="facialwash.png" alt="">
+            <h3>Facial Wash</h3>
+            <p>Membersihkan wajah dengan lembut</p>
+            <button class="btn">Beli</button>
+        </div>
+
+        <div class="card">
+            <img src="TONER.jpg" alt="">
+            <h3>Toner</h3>
+            <p>Menyegarkan dan melembapkan kulit</p>
+            <button class="btn">Beli</button>
+        </div>
+
+        <div class="card">
+            <img src="serum.jpg" alt="">
+            <h3>Serum</h3>
+            <p>Mencerahkan dan menutrisi kulit</p>
+            <button class="btn">Beli</button>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Daftar Member</h2>
+        <input type="text" placeholder="Nama">
+        <input type="email" placeholder="Email"><br>
+        <button class="btn">Daftar</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Glow Beauty Skincare</p>
+    </footer>
+
+</body>
+</html>
